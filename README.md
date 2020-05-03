@@ -42,5 +42,4 @@ Data ETL Pipeline + NLP ML Pipeline + Implementation into a web app
 3. Go to http://0.0.0.0:3001/
 
 ### Try your message in the Web app!
-For example, if you input this message "hungry hungry hungry hungry hungry hungry hungry hungry hungry hungry hungry hungry hungry",
-you will see the app returning you the classifications of "Related", "Request", "Aid Related", "Food" and "Direct Report" being True.
+For example, if you input this message "I'm hungry! I'm hungry!! I'm hungry!!!", you will see the app returning you the classifications of "Related", "Request", "Aid Related", "Food" and "Direct Report" being True.
