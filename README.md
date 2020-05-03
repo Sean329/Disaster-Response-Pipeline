@@ -3,19 +3,29 @@ Data ETL Pipeline + NLP ML Pipeline + Implementation into a web app
 
 ### Here's the file structure of the project:
 - app
+
 | - template
+
 | |- master.html  # main page of web app
+
 | |- go.html  # classification result page of web app
+
 |- run.py  # Flask file that runs app
 
 - data
+
 |- disaster_categories.csv  # data to process 
+
 |- disaster_messages.csv  # data to process
+
 |- process_data.py # Run this program to extract, tramsform and load data
+
 |- InsertDatabaseName.db   # database to save clean data to. It will be generated after you run process_data.py
 
 - models
+
 |- train_classifier.py # Run this program to build the NLP machine learning model
+
 |- classifier.pkl  # saved model. It will be genearated after you run train_classifier.py
 
 ### Instructions:
